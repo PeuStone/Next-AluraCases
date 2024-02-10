@@ -206,6 +206,7 @@ export default function HomeScreen() {
                                                 borderRadius: theme.space.x64,
                                                 color: theme.colors.primary["400"],
                                                 alignItems: 'center',
+                                                width: theme.space.x24
                                             }}
                                         >
                                             <Text>Confira as principais dúvidas</Text>
@@ -213,6 +214,7 @@ export default function HomeScreen() {
                                                 stylesheet={{
                                                     iconVariant: 'chevronRight',
                                                     marginLeft: theme.space.xpx,
+                                                    
                                                 }}
                                                 aria-hidden="true"
                                             />
